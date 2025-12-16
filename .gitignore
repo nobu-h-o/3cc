@@ -1,0 +1,48 @@
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Flex and Bison generated files
+lex.yy.c
+lex.yy.cpp
+parser.tab.c
+parser.tab.cpp
+parser.tab.h
+*.output
+
+# Compiled output
+*.o
+*.ll
+*.out
+*.a
+*.so
+*.dylib
+3cc
+
+# Test artifacts
+test/tmp
+test/tmp.*
+test/*.o
+test/*.ll
+test/testprog
+test/test
+
+# Executables
+program
+testprog
+a.out
